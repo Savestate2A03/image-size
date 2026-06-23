@@ -24,6 +24,7 @@ function extractPartialStreams(input: Uint8Array): Uint8Array[] {
   while (offset < input.length) {
     const jxlpBox = findBox(input, 'jxlp', offset)
     if (!jxlpBox) break
+    if (jxlpBox.size <= 0) break
     partialStreams.push(
       input.slice(jxlpBox.offset + 12, jxlpBox.offset + jxlpBox.size),
     )
