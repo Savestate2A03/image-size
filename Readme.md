@@ -6,6 +6,8 @@
 
 Fast, lightweight NodeJS package to get dimensions of any image file or buffer.
 
+Available on npmjs: https://www.npmjs.com/package/@rei.wolf/image-size-v2
+
 ## Why v2
 
 To patch the previous NPM package by netroy that was archived after getting invaded by AI slop requests
