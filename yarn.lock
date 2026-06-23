@@ -419,6 +419,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rei.wolf/image-size-v2@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@rei.wolf/image-size-v2@workspace:."
+  dependencies:
+    "@biomejs/biome": "npm:1.9.4"
+    "@types/glob": "npm:8.1.0"
+    "@types/node": "npm:18.19.39"
+    c8: "npm:10.1.3"
+    glob: "npm:10.4.2"
+    ts-node: "npm:10.9.2"
+    tsup: "npm:8.3.5"
+    typedoc: "npm:0.25.13"
+    typescript: "npm:5.4.5"
+  bin:
+    image-size-v2: bin/image-size.js
+  languageName: unknown
+  linkType: soft
+
 "@rollup/rollup-android-arm-eabi@npm:4.29.1":
   version: 4.29.1
   resolution: "@rollup/rollup-android-arm-eabi@npm:4.29.1"
@@ -1198,24 +1216,6 @@ __metadata:
   checksum: 24e3292dd3dadaa81d065c6f8c41b274a47098150d444b96e5f53b4638a9a71482921ea6a91a1f59bb71d9796de25e04afd05919fa64c360347ba65d3766f10f
   languageName: node
   linkType: hard
-
-"@rei.wolf/image-size-v2@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@rei.wolf/image-size-v2@workspace:."
-  dependencies:
-    "@biomejs/biome": "npm:1.9.4"
-    "@types/glob": "npm:8.1.0"
-    "@types/node": "npm:18.19.39"
-    c8: "npm:10.1.3"
-    glob: "npm:10.4.2"
-    ts-node: "npm:10.9.2"
-    tsup: "npm:8.3.5"
-    typedoc: "npm:0.25.13"
-    typescript: "npm:5.4.5"
-  bin:
-    image-size-v2: bin/image-size.js
-  languageName: unknown
-  linkType: soft
 
 "imurmurhash@npm:^0.1.4":
   version: 0.1.4
