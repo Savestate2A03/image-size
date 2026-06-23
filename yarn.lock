@@ -1213,7 +1213,7 @@ __metadata:
     typedoc: "npm:0.25.13"
     typescript: "npm:5.4.5"
   bin:
-    image-size: bin/image-size.js
+    image-size-v2: bin/image-size.js
   languageName: unknown
   linkType: soft
 
